@@ -3,3 +3,7 @@
 
 # `View Project live on `
 **https://ecom-ishop.netlify.app/**
+
+# `Technologies Used`
+**ReactJs,React-Redux**
+**ExpressJs,MongoDB**
