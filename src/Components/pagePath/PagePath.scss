@@ -1,0 +1,12 @@
+@import "../../scss/Variables";
+
+.page-path {
+    margin: 3rem 0;
+    background-color: $path_background;
+    .url {
+        color: $banner_bg;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+}

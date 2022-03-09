@@ -1,0 +1,84 @@
+@import "../../scss/Variables";
+
+.product-details {
+    margin: 0 auto;
+    .loading-message {
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .product-info {
+        display: flex;
+        gap: 2rem;
+        margin: 5rem 2%;
+        .product-left {
+            .product-image {
+                height: 40rem;
+                width: 40rem;
+            }
+        }
+        .product-right {
+            .product-title {
+                font-size: 3rem;
+            }
+            .category-tag {
+                margin: 1rem 0;
+                color: $category;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+            .price-badge {
+                margin-bottom: 1rem;
+                font-size: 2.5rem;
+                background-color: $banner_bg;
+                display: inline-block;
+                padding: .5rem 1rem;
+                border-radius: 1.5rem;
+                color: $color_white;
+            }
+            .rating {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-bottom: 1.5rem;
+                font-weight: bold;
+                .star {
+                    margin-left: .5rem;
+                    margin-right: 1rem;
+                    color: $rating_color;
+                }
+                .count {
+                    color: $line_through;
+                }
+            }
+            .description-head {
+                margin-bottom: 1rem;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            .description {
+                font-size: 1.7rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .product-details {
+        margin: 0 auto;
+        .loading-message {
+            margin-top: 5rem;
+            text-align: center;
+        }
+        .product-info {
+            flex-direction: column;
+            align-items: center;
+            gap: 10rem;
+            .product-left {
+                .product-image {
+                    height: 30rem;
+                    width: 30rem;
+                }
+            }
+        }
+    }
+}

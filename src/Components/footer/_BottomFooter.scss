@@ -1,0 +1,32 @@
+.bottom-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 4rem;
+    margin: 3rem 12%;
+    border-top: 1px solid $border_card;
+    .bottom-options {
+        margin-top: 2.5rem;
+        .bottom-title {
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+        }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            .bottom-links {
+                text-decoration: none;
+                color: $color_black;
+                margin-bottom: 1rem;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}

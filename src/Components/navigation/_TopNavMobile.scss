@@ -1,0 +1,47 @@
+// Responsive: Mobile
+@media screen and (max-width: 1000px) {
+    .top-nav {
+        .top-nav-content {
+            margin: 2rem 5%;
+            flex-direction: row-reverse;
+            justify-content: space-evenly;
+            .top-left {
+                gap: 3.5rem;
+            }
+            .top-right {
+                gap: 3.5rem;
+                .search {
+                    display: none;
+                }
+            }
+        }
+        .top-nav-hr {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .top-nav {
+        .top-nav-content {
+            .top-right {
+                .total-price {
+                    margin-right: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .top-nav {
+        .top-nav-content {
+            .top-right {
+                .total-price {
+                    display: none;
+                }
+            }
+        }
+    }
+}

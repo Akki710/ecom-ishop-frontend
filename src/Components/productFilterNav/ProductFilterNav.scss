@@ -1,0 +1,47 @@
+@import "../../scss/Variables";
+
+.filter-nav {
+    background-color: $path_background;
+    display: flex;
+    justify-content: space-between;
+    .filter-btn {
+        display: flex;
+        .options {
+            margin: 2rem 2rem;
+            font-size: 1.8rem;
+            .select {
+                margin-left: 1rem;
+            }
+        }
+    }
+    .filter-items {
+        .filter {
+            margin: 2rem 2rem;
+            font-size: 1.8rem;
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .filter-nav {
+        .filter-btn {
+            display: flex;
+            .options {
+                margin: 2rem .5rem;
+                font-size: 1.5rem;
+                .select {
+                    margin-left: 1rem;
+                }
+            }
+        }
+        .filter-items {
+            .filter {
+                opacity: 1;
+                cursor: pointer;
+                pointer-events: visible;
+            }
+        }
+    }
+}

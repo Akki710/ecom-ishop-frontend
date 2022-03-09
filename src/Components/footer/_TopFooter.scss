@@ -1,0 +1,38 @@
+.top-footer {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap: 4rem;
+    margin: 3rem 12%;
+    .footer-div {
+        .item-brand {
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            color: $line_through;
+        }
+        .item-title {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        .item-desc {
+            font-size: 1.6rem;
+            color: $color_black;
+        }
+        .social {
+            margin-top: 2rem;
+            .social-icon {
+                display: inline-block;
+                color: $banner_bg;
+                margin: 0 1rem;
+                font-size: 3rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .top-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

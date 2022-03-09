@@ -1,0 +1,46 @@
+@import "../../scss/Variables";
+
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    position: relative;
+    @import "./HoverNav";
+    .top-wrap {
+        display: flex;
+        .brand {
+            color: $brand;
+            font-size: 2rem;
+        }
+        .menu-icon {
+            .menu-btn {
+                margin-top: 1rem;
+                font-size: 2.7rem;
+                display: none;
+                cursor: pointer;
+                background-color: $color_white;
+            }
+        }
+    }
+    #check {
+        display: none;
+    }
+    .nav-items {
+        margin-top: 1.5rem;
+        display: flex;
+        .nav-item {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: $color_black;
+            margin: 0 2rem;
+        }
+        .nav-item:focus {
+            color: $nav_item_clicked;
+        }
+    }
+}
+
+// Responsive: mobile
+@import "./BottomNavMobile";

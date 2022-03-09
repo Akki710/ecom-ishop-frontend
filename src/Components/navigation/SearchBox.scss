@@ -1,0 +1,30 @@
+@import "../../scss//Variables";
+
+.search-box {
+    margin: 0 auto;
+    display: none;
+    .search-type {
+        margin-top: 2rem;
+        width: 30rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border: 2px solid $color_black;
+        font-size: 2.2rem;
+        padding-left: 1rem;
+    }
+}
+
+// Mobile: responsive
+@media screen and (max-width: 1000px) {
+    .search-box {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .search-box {
+        .search-type {
+            width: 100%;
+        }
+    }
+}

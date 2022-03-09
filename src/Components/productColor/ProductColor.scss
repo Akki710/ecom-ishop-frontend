@@ -1,0 +1,36 @@
+@import "../../scss/Variables";
+
+.product-color {
+    background-color: $path_background;
+    margin-top: 2rem;
+    margin-left: 2%;
+    .content {
+        margin-left: 2%;
+        .color-head {
+            padding-top: 2rem;
+            font-size: 1.8rem;
+        }
+        .color-content {
+            margin-top: 2rem;
+            display: flex;
+            gap: 5%;
+            margin-right: 5%;
+            #colorBox {
+                margin-bottom: 1.5rem;
+                cursor: pointer;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 3.5rem;
+                height: 3.5rem;
+                border-radius: 50%;
+            }
+            #colorBox::-webkit-color-swatch {
+                border-radius: 5rem;
+            }
+            #colorBox::-moz-color-swatch {
+                border-radius: 50%;
+            }
+        }
+    }
+}

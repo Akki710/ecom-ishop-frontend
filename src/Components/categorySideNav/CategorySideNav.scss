@@ -1,0 +1,24 @@
+@import "../../scss/Variables";
+
+.category-side-nav {
+    background-color: $path_background;
+    margin-top: 1rem;
+    .side-items-div {
+        margin-left: 5%;
+        .side-head {
+            padding: 2rem 0;
+            font-size: 1.8rem;
+        }
+        .side-items {
+            display: flex;
+            flex-direction: column;
+            .side-links {
+                margin: 1rem 0;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: bold;
+                color: $color_black;
+            }
+        }
+    }
+}

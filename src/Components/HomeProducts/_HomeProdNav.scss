@@ -1,0 +1,24 @@
+.home-prod-nav {
+    display: flex;
+    flex-direction: column;
+    .title {
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+    .prod-nav-items {
+        margin-top: 1rem;
+        .prod-item {
+            text-decoration: none;
+            color: $color_black;
+            margin: 0 1rem;
+            font-size: 1.5rem;
+        }
+        .prod-item:focus {
+            color: $nav_item_clicked;
+            text-decoration: underline $nav_item_clicked;
+            text-decoration-thickness: 0.2rem;
+            text-underline-offset: 0.5rem;
+        }
+    }
+}

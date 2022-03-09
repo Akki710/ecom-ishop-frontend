@@ -1,0 +1,23 @@
+@import "../../scss/Variables";
+
+.price-filter {
+    background-color: $path_background;
+    margin-top: 2rem;
+    .slider {
+        margin-left: 5%;
+        .price-head {
+            padding-top: 2rem;
+            font-size: 1.8rem;
+        }
+        #value {
+            margin: 2rem 0;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        #ranger {
+            width: 80%;
+            cursor: pointer;
+            margin-bottom: 2rem;
+        }
+    }
+}

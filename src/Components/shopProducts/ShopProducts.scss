@@ -1,0 +1,28 @@
+.shop-products {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    .left-coloumn {
+        margin-left: 2%;
+    }
+    .right-coloumn {
+        margin: 0 2%;
+        .mid-bannner {
+            margin: 1rem 0;
+            .banner-image-container {
+                margin-top: -1rem;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .shop-products {
+        grid-template-columns: 100%;
+    }
+    .left-coloumn {
+        display: none;
+    }
+}

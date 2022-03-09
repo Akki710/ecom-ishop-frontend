@@ -1,0 +1,16 @@
+@import "../../scss/Variables";
+
+.home-products {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @import "./HomeProdNav";
+    .home-card-wrap {
+        margin: 2.5rem 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem 2rem;
+    }
+}

@@ -1,0 +1,18 @@
+@media screen and (max-width: 1000px) {
+    .mid-bannner{
+        margin-top: 5rem;
+        height: 50rem;
+        flex-direction: column;
+        align-items: center;
+        .mid-text {
+            margin-top: 2rem;
+            margin-left: 0;
+            text-align: center;
+        }
+        .banner-image-container {
+            margin-top: 2rem;
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+}

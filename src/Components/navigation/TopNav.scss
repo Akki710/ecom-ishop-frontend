@@ -1,0 +1,35 @@
+.top-nav {
+    .top-nav-content {
+        margin: 1rem 10%;
+        display: flex;
+        justify-content: space-between;
+        .top-left {
+            display: flex;
+            gap: 5rem;
+            font-size: 1.8rem;
+            .label {
+                margin-right: 1rem;
+            }
+        }
+        .top-right {
+            display: flex;
+            gap: 5rem;
+            font-size: 1.8rem;
+            .item-gap {
+                margin-right: 1rem;
+            }
+            .profile {
+                cursor: pointer;
+            }
+            .shop-bag {
+                cursor: pointer;
+            }
+            .search {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// Responsive: Mobile
+@import "./TopNavMobile";

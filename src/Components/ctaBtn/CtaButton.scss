@@ -1,0 +1,21 @@
+@import "../../scss/Variables";
+
+.cta-btn-wrap {
+    position: relative;
+    margin-top: 2rem;
+    .cta-btn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $banner_bg;
+        color: $color_white;
+        padding: 1.7rem 0;
+        border: 1px solid $nav_background;
+        cursor: pointer;
+        font-size: 2rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        width: 28rem;
+        text-align: center;
+    }
+}

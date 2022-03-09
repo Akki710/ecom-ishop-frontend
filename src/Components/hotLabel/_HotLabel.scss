@@ -1,0 +1,12 @@
+.hot {
+    position: absolute;
+    top: .3rem;
+    left: .4rem;
+    background-color: $hot_tag;
+    border-radius: 0.2rem;
+    .hot-para {
+        margin: .3rem .7rem;
+        color: $color_white;
+        font-size: 1.6rem;
+    }
+}
