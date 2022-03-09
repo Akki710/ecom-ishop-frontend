@@ -4,8 +4,11 @@
 # `View Project live on `
 **https://ecom-ishop.netlify.app/**
 
+![screenschot](./public/scs.png)
+
 # `Technologies Used`
 **ReactJs,React-Redux**
 **ExpressJs,MongoDB**
 
-![screenschot](./public/scs.png)
+# `Link to Backend`
+**https://github.com/Akki710/ecom-ishop-backend**
