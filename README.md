@@ -7,3 +7,5 @@
 # `Technologies Used`
 **ReactJs,React-Redux**
 **ExpressJs,MongoDB**
+
+![screenschot](./public/scs.png)
